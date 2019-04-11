@@ -1,0 +1,27 @@
+{
+  "name": "eat-da-burger-app",
+  "version": "1.0.0",
+  "description": "Eat The Burger App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ToddTateDev/Eat-Da-Burger-App.git"
+  },
+  "author": "Todd Tate",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ToddTateDev/Eat-Da-Burger-App/issues"
+  },
+  "homepage": "https://github.com/ToddTateDev/Eat-Da-Burger-App#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "mysql": "^2.16.0",
+    "mysql2": "^1.6.5",
+    "sequelize": "^5.3.0"
+  }
+}
